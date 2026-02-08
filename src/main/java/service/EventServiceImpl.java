@@ -61,7 +61,7 @@ public class EventServiceImpl implements EventService {
 			
 		  }
 		  @Override
-		    @Transactional
+		   @Transactional
 		  public Integer cancelRegistration(List<String> emailIds) {
 			    
 			int count = 0;

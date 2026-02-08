@@ -18,7 +18,7 @@ public class LoggingAspect {
 	private static final Logger LOGGER = LogManager.getLogger(LoggingAspect.class);
 	
 	
-	@AfterThrowing(pointcut = "execution(*eventRegistration.service.EventServiceImpl.*(..))", throwing = "exception")
+	@AfterThrowing(pointcut = "execution(* service.EventServiceImpl.*(..))", throwing = "exception")
 	public void logServiceException(EventRegistrationException exception) {
 		  LOGGER.error("Exception in Service Layer: {}", exception.getMessage());
 	}

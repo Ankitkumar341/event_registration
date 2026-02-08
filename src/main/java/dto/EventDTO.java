@@ -29,5 +29,6 @@ public class EventDTO {
     @Min(value =0)
     @Max(value = 10)
     private Integer maxCount;
+    
     private List<ParticipantDTO> participants;
 }
