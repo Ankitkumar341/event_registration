@@ -1,0 +1,27 @@
+{
+  "events": [
+    {
+      "eventId": 101,
+      "name": "Tech Conference",
+      "eventDate": "2026-02-15",
+      "venue": "Bhubaneswar",
+      "maxCount": 100,
+      "participants": [
+        {
+          "participantId": 1,
+          "name": "Ritika",
+          "emailId": "ritika@example.com",
+          "gender": "Female",
+          "registrationDate": "2026-02-10"
+        },
+        {
+          "participantId": 2,
+          "name": "Amit",
+          "emailId": "amit@example.com",
+          "gender": "Male",
+          "registrationDate": "2026-02-10"
+        }
+      ]
+    }
+  ]
+}
